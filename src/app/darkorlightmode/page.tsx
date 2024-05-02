@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 
-export default function darkorlightmode() {
+export default function DarkOrLightMode() {
 
     const [mode, setMode] = useState(true)
     const handleTheme = () => {
